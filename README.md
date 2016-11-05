@@ -1,37 +1,48 @@
-# React / redux boilerplate project
+# 🔆 React / Redux Starterkit
+![](http://forthebadge.com/images/badges/built-with-love.svg)
 
-## Tech Stack
+A React / Redux Starterkit with unit-testing, linting and building to get you up to speed fast. Also includes things like a changelog, styleguide and a Yarn-setup.
+## Inside the box
 
-* Language: Javascript ES6 + JSX
-* View: React.js
-* Application state management: Redux, react-redux
-* Code check: eslint
-* Unit test: enzyme, tape
-* Packaging: webpack
+| Category        | Name                  |
+|-----------------|-----------------------|
+| Language        | JavaScript (ES6, JSX) |
+| Transpiler      | [Babel](https://babeljs.io)|
+| Libraries       | - [React](https://facebook.github.io/react/)|
+|                 | - [Redux](https://github.com/reactjs/redux)|
+| Code Quality    | - [Eslint](http://eslint.org)|
+|                 | - [Airbnb Styleguide](https://github.com/airbnb/javascript)|
+| Testing         | - [AVA](https://github.com/avajs/ava)|
+|                 | - [Enzyme](https://github.com/airbnb/enzyme)|
+| Building        | [Webpack](https://webpack.github.io)|
+| Package manager | [Yarn](https://yarnpkg.com)|
+| Changelog       | [KeepAChangelog](http://keepachangelog.com/en/0.3.0/)|
 
-## Build
+## How to use
 
-```
-$ npm run build
-```
-
-## Code check & unit test
-
-```
-$ npm t
-```
-
-
-## Install
+### Install
 
 ```
-$ npm install
+$ yarn
 ```
 
-## Run
+### Run
 
 ```
-$ npm start
+$ yarn start
 ```
-Open browser on http://localhost:8080/
+
+Open browser on [localhost:8080/](http://localhost:8080/)
+
+### Code linting and unit testing
+
+```
+$ yarn test
+```
+
+### Build
+
+```
+$ yarn run build
+```
 
